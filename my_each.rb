@@ -5,6 +5,6 @@ def my_each(array) # put argument(s) here
   end
 end
 
-my_each do |collection|
+my_each(collection) do |collection|
   puts "#{collection}"
 end
